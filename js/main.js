@@ -51,6 +51,35 @@ $(function() {
 			}
 		}
 	});
+	/*Owl-Carousel2*/
+	$('.p-carousel-card').owlCarousel({
+		loop:true,
+		margin:30,
+		nav:false,
+		responsive:{
+			0:{
+				items:1,
+				margin: 5
+			},
+			319:{
+				items:2,
+				margin: 5
+			},
+			768:{
+				items:2,
+				dots:false
+			},
+			992:{
+				items:2,
+				dots:false,
+				nav:false
+			},
+			993:{
+				items:2,
+				dots:false
+			}
+		}
+	});
 	$('.p-sectionslider-carousel .p-sectionslider__prev').on('click', function() {
 		$('.p-carousel .owl-prev').trigger('click');
 		return false;
@@ -85,6 +114,62 @@ $(function() {
 			}
 		}
 	});
+	$('.p-carousel1-card').owlCarousel({
+		loop:true,
+		margin:30,
+		nav:false,
+		responsive:{
+			0:{
+				items:2,
+				margin: 5,
+				dots:true
+			},
+			500:{
+				items:3,
+				dots:true
+			},
+			768:{
+				items:4,
+				dots:true
+			},
+			992:{
+				items:4,
+				dots:true
+			},
+			993:{
+				items:4,
+				dots:false
+			}
+		}
+	});
+	$('.p-carousel2-card').owlCarousel({
+		loop:true,
+		margin:30,
+		nav:false,
+		responsive:{
+			0:{
+				items:1,
+				margin: 5,
+				dots:false
+			},
+			319:{
+				items:1,
+				dots:false
+			},
+			500:{
+				items:2,
+				dots:false
+			},
+			992:{
+				items:2,
+				dots:false
+			},
+			993:{
+				items:2,
+				dots:false
+			}
+		}
+	});
 	$('.p-sectionslider-carousel1 .p-sectionslider__prev').on('click', function() {
 		$('.p-carousel1 .owl-prev').trigger('click');
 		return false;
@@ -108,7 +193,7 @@ $(function() {
 				items:2
 			},
 			992:{
-				items:3,
+				items:2,
 				dots:true
 			},
 			993:{
