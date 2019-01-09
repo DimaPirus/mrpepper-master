@@ -1150,6 +1150,12 @@ font-family: Lato;
   position: relative;
   height: 385px;
 }
+.product #similar-goods-wrap .similar-goods p {
+  font-size: 14px;
+}
+.product #similar-goods-wrap .similar-goods {
+  width: 80%;
+}
 }
 
 
@@ -1570,7 +1576,7 @@ font-family: Lato;
     margin: 0 auto;
    }
    .product #similar-goods-wrap label::before {
-    top: 3vh;
+    top: 45%;
     right: 1.5vw;
    }
    .product #similar-goods-wrap input[title]:checked ~ label::before {
@@ -1599,7 +1605,7 @@ font-family: Lato;
    .container-catalog .row .col-lg-padding-min:nth-of-type(5) #similar-goods-wrap .stock-price,
    .container-catalog .row .col-lg-padding-min:nth-of-type(8) #similar-goods-wrap .stock-price,
    .container-catalog .row .col-lg-padding-min:nth-of-type(10) #similar-goods-wrap .stock-price {
-    left: 45px;
+    left: 5%;
    }
    .container-catalog .row .col-lg-padding-min:nth-of-type(3) #similar-goods-wrap label span,
    .container-catalog .row .col-lg-padding-min:nth-of-type(5) #similar-goods-wrap label span,
@@ -2365,6 +2371,16 @@ margin-left: -15px;
 }
 .card-top {
   padding-left: 0;
+}
+.product #similar-goods-wrap {
+  width: 60%;
+}
+.product #similar-goods-wrap .similar-goods {
+  width: 100%;
+}
+.product #similar-goods-wrap .similar-goods p {
+  font-size: 10px;
+  text-align: left;
 }
 }
 

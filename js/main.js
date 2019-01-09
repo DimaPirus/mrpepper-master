@@ -150,23 +150,28 @@ $(function() {
 			0:{
 				items:1,
 				margin: 5,
-				dots:false
+				dots:false,
+				nav:false
 			},
 			319:{
 				items:1,
-				dots:false
+				dots:false,
+				nav:false
 			},
 			500:{
 				items:2,
-				dots:false
+				dots:false,
+				nav:false
 			},
 			992:{
 				items:2,
-				dots:false
+				dots:false,
+				nav:false
 			},
 			993:{
 				items:2,
-				dots:false
+				dots:false,
+				nav:false
 			}
 		}
 	});

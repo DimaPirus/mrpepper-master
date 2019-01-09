@@ -1001,6 +1001,7 @@ border-bottom: 1px solid #f3f3f3;
 .product #similar-goods-wrap input[title]:checked ~ .similar-goods{
 height: 100px;
 transition: 0.5s;
+overflow-x:hidden;
 }
 .product #similar-goods-wrap input[title]:checked ~ label:before {
 -webkit-transform: rotate(180deg);
@@ -4552,5 +4553,8 @@ width: 16px;
   display: none;
 }
 .card-top-right-mob {
+  display: none;
+}
+.p-carousel2-card .owl-nav {
   display: none;
 }
